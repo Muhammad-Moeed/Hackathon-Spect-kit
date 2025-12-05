@@ -1,0 +1,27 @@
+{
+  "id": "module2/locomotion_balance",
+  "title": "Locomotion and Balance",
+  "description": "سیکھنے کے مقاصد",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/module2/locomotion_balance.mdx",
+  "sourceDirName": "module2",
+  "slug": "/module2/locomotion_balance",
+  "permalink": "/ur/docs/module2/locomotion_balance",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "locomotion_balance",
+    "title": "Locomotion and Balance",
+    "sidebar_label": "Locomotion & Balance"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Kinematics & Dynamics",
+    "permalink": "/ur/docs/module2/kinematics_dynamics"
+  },
+  "next": {
+    "title": "Actuator Control",
+    "permalink": "/ur/docs/module2/actuator_control"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "module2/humanoid_design_principles",
+  "title": "Humanoid Design Principles",
+  "description": "سیکھنے کے مقاصد",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/module2/humanoid_design_principles.mdx",
+  "sourceDirName": "module2",
+  "slug": "/module2/humanoid_design_principles",
+  "permalink": "/ur/docs/module2/humanoid_design_principles",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "humanoid_design_principles",
+    "title": "Humanoid Design Principles",
+    "sidebar_label": "Design Principles"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Humanoid Robotics Engineering",
+    "permalink": "/ur/docs/category/robotics-engineering"
+  },
+  "next": {
+    "title": "Kinematics & Dynamics",
+    "permalink": "/ur/docs/module2/kinematics_dynamics"
+  }
+}

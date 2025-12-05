@@ -1,0 +1,27 @@
+{
+  "id": "module3/social_ethical_implications",
+  "title": "Social and Ethical Implications",
+  "description": "Learning Objectives",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/module3/social_ethical_implications.mdx",
+  "sourceDirName": "module3",
+  "slug": "/module3/social_ethical_implications",
+  "permalink": "/ur/docs/module3/social_ethical_implications",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "social_ethical_implications",
+    "title": "Social and Ethical Implications",
+    "sidebar_label": "Social & Ethical"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "HRI",
+    "permalink": "/ur/docs/module3/human_robot_interaction"
+  },
+  "next": {
+    "title": "Applications, Future & Innovation",
+    "permalink": "/ur/docs/category/applications-future"
+  }
+}

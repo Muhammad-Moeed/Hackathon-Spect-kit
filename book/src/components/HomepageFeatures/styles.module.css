@@ -1,0 +1,203 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 5rem 0;
+  width: 100%;
+  background: linear-gradient(to bottom, var(--ifm-background-color) 0%, var(--ifm-background-surface-color) 100%);
+}
+
+.features :global(.container) {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.features :global(.row) {
+  display: flex !important;
+  gap: 2rem;
+  flex-wrap: nowrap !important;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+}
+
+.features :global(.col) {
+  padding: 0 !important;
+  flex: 0 1 calc(33.333% - 1.5rem) !important;
+  min-width: 0;
+  max-width: 350px;
+  display: flex;
+}
+
+/* Feature Card */
+.featureCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2.5rem 2rem;
+  background: var(--ifm-background-color);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--ifm-border-color);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.featureCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-light) 100%);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.featureCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px rgba(30, 58, 138, 0.15);
+  border-color: var(--ifm-color-primary-light);
+}
+
+.featureCard:hover::before {
+  transform: scaleX(1);
+}
+
+/* Icon Wrapper */
+.featureIconWrapper {
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featureIcon {
+  font-size: 4rem;
+  display: inline-block;
+  transition: transform 0.3s ease;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.1));
+  background: linear-gradient(135deg, var(--ifm-color-primary-lightest) 0%, var(--ifm-color-primary-lighter) 100%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(30, 58, 138, 0.2);
+}
+
+.featureCard:hover .featureIcon {
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: 0 6px 24px rgba(30, 58, 138, 0.3);
+}
+
+/* Content */
+.featureContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.featureTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+  color: var(--ifm-heading-color);
+  line-height: 1.3;
+}
+
+/* Dark theme - ensure white headings */
+[data-theme='dark'] .featureTitle {
+  color: #ffffff;
+}
+
+.featureDescription {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--ifm-color-content);
+  margin: 0;
+  flex: 1;
+}
+
+/* Dark Mode */
+[data-theme='dark'] .features {
+  background: linear-gradient(to bottom, var(--ifm-background-color) 0%, var(--ifm-background-surface-color) 100%);
+}
+
+[data-theme='dark'] .featureCard {
+  background: var(--ifm-background-surface-color);
+  border-color: #ffffff !important;
+}
+
+[data-theme='dark'] .featureCard:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 12px 40px rgba(96, 165, 250, 0.2);
+}
+
+[data-theme='dark'] .featureIcon {
+  background: linear-gradient(135deg, #93c5fd 0%, #bfdbfe 100%) !important;
+  box-shadow: 0 4px 16px rgba(30, 58, 138, 0.2);
+}
+
+/* Responsive */
+@media screen and (max-width: 1200px) {
+  .features :global(.row) {
+    flex-wrap: wrap !important;
+  }
+  
+  .features :global(.col) {
+    flex: 1 1 calc(50% - 1rem) !important;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .features {
+    padding: 3rem 0;
+  }
+  
+  .features :global(.row) {
+    gap: 1.5rem;
+  }
+  
+  .features :global(.col) {
+    flex: 1 1 100% !important;
+    min-width: 280px;
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+  
+  .featureCard {
+    padding: 2rem 1.5rem;
+  }
+  
+  .featureIcon {
+    width: 80px;
+    height: 80px;
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .features {
+    padding: 2rem 0;
+  }
+  
+  .featureCard {
+    padding: 1.5rem 1rem;
+  }
+  
+  .featureTitle {
+    font-size: 1.25rem;
+  }
+  
+  .featureDescription {
+    font-size: 0.95rem;
+  }
+}
+

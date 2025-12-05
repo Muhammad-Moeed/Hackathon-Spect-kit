@@ -1,0 +1,27 @@
+{
+  "id": "module4/future_challenges",
+  "title": "Future Challenges & Research Directions",
+  "description": "Learning Objectives",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/module4/future_challenges.mdx",
+  "sourceDirName": "module4",
+  "slug": "/module4/future_challenges",
+  "permalink": "/ur/docs/module4/future_challenges",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "future_challenges",
+    "title": "Future Challenges & Research Directions",
+    "sidebar_label": "Future Challenges"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Emerging Trends",
+    "permalink": "/ur/docs/module4/emerging_trends"
+  },
+  "next": {
+    "title": "Societal Impact",
+    "permalink": "/ur/docs/module4/societal_impact_ethics"
+  }
+}

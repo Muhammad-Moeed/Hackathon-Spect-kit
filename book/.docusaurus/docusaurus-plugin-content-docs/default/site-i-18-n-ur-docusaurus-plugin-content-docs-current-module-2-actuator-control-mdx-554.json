@@ -1,0 +1,27 @@
+{
+  "id": "module2/actuator_control",
+  "title": "Actuator Control and Feedback",
+  "description": "سیکھنے کے مقاصد",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/module2/actuator_control.mdx",
+  "sourceDirName": "module2",
+  "slug": "/module2/actuator_control",
+  "permalink": "/ur/docs/module2/actuator_control",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "actuator_control",
+    "title": "Actuator Control and Feedback",
+    "sidebar_label": "Actuator Control"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Locomotion & Balance",
+    "permalink": "/ur/docs/module2/locomotion_balance"
+  },
+  "next": {
+    "title": "Intelligence, Learning & Interaction",
+    "permalink": "/ur/docs/category/intelligence-learning"
+  }
+}

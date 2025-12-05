@@ -1,0 +1,27 @@
+{
+  "id": "module4/emerging_trends",
+  "title": "Emerging Trends",
+  "description": "Learning Objectives",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/module4/emerging_trends.mdx",
+  "sourceDirName": "module4",
+  "slug": "/module4/emerging_trends",
+  "permalink": "/ur/docs/module4/emerging_trends",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "emerging_trends",
+    "title": "Emerging Trends",
+    "sidebar_label": "Emerging Trends"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Applications",
+    "permalink": "/ur/docs/module4/real_world_applications"
+  },
+  "next": {
+    "title": "Future Challenges",
+    "permalink": "/ur/docs/module4/future_challenges"
+  }
+}

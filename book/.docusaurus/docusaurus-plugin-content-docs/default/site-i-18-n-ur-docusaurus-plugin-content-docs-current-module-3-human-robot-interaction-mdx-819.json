@@ -1,0 +1,27 @@
+{
+  "id": "module3/human_robot_interaction",
+  "title": "Human-Robot Interaction (HRI)",
+  "description": "Learning Objectives",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/module3/human_robot_interaction.mdx",
+  "sourceDirName": "module3",
+  "slug": "/module3/human_robot_interaction",
+  "permalink": "/ur/docs/module3/human_robot_interaction",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "human_robot_interaction",
+    "title": "Human-Robot Interaction (HRI)",
+    "sidebar_label": "HRI"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Decision Making & Planning",
+    "permalink": "/ur/docs/module3/decision_making_planning"
+  },
+  "next": {
+    "title": "Social & Ethical",
+    "permalink": "/ur/docs/module3/social_ethical_implications"
+  }
+}

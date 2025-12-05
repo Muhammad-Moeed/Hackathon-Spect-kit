@@ -1,0 +1,27 @@
+{
+  "id": "module3/robot_learning_paradigms",
+  "title": "Robot Learning Paradigms",
+  "description": "Learning Objectives",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/module3/robot_learning_paradigms.mdx",
+  "sourceDirName": "module3",
+  "slug": "/module3/robot_learning_paradigms",
+  "permalink": "/ur/docs/module3/robot_learning_paradigms",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "robot_learning_paradigms",
+    "title": "Robot Learning Paradigms",
+    "sidebar_label": "Learning Paradigms"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Intelligence, Learning & Interaction",
+    "permalink": "/ur/docs/category/intelligence-learning"
+  },
+  "next": {
+    "title": "Decision Making & Planning",
+    "permalink": "/ur/docs/module3/decision_making_planning"
+  }
+}

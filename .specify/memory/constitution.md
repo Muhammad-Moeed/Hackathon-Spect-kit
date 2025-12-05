@@ -1,55 +1,77 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+Version change: 0.0.0 → 1.0.0
+List of modified principles:
+  - PRINCIPLE_1_NAME → I. Technical Accuracy
+  - PRINCIPLE_2_NAME → II. Clear and Structured Writing
+  - PRINCIPLE_3_NAME → III. Balanced Coverage
+  - PRINCIPLE_4_NAME → IV. Consistent Terminology and Design
+  - PRINCIPLE_5_NAME → V. Modular Content
+Added sections: Standards, Content Scope, Constraints, Success Criteria, AI Behavioral Rules
+Removed sections: PRINCIPLE_6_NAME, PRINCIPLE_6_DESCRIPTION, SECTION_2_CONTENT, SECTION_3_CONTENT
+Templates requiring updates:
+  - .specify/templates/plan-template.md: ⚠ pending (Constitution Check alignment)
+  - .specify/templates/spec-template.md: ⚠ pending (Alignment with Standards, Content Scope, Constraints, Success Criteria, AI Behavioral Rules)
+  - .specify/templates/tasks-template.md: ⚠ pending (Influence on task definition and validation)
+  - .specify/templates/commands/sp.constitution.md: ✅ updated
+  - .specify/templates/commands/sp.phr.md: ⚠ pending (General PHR adherence to constitution)
+Follow-up TODOs: none
+-->
+# Physical AI & Humanoid Robotics Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Technical Accuracy
+All explanations MUST be verifiable and aligned with actual robotics systems (ROS2, sensors, kinematics, locomotion, control). No hallucinated components, sensors, libraries, or APIs.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Clear and Structured Writing
+Clear, structured, and pedagogically sound writing. Consistent terminology, formatting, and design across all chapters.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Balanced Coverage
+Balanced coverage of theory, architecture, and hands-on implementation.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Consistent Terminology and Design
+Consistent terminology, formatting, and design across all chapters.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Modular Content
+Modular content that CAN be read independently.
 
-### [PRINCIPLE_6_NAME]
+## Standards
 
+All explanations MUST be verifiable and aligned with actual robotics systems (ROS2, sensors, kinematics, locomotion, control).
+Code samples MUST be syntactically correct and realistically runnable.
+Markdown output MUST follow Docusaurus conventions (frontmatter, headings, folder structure).
+Zero plagiarism; all text MUST be originally generated.
+No hallucinated components, sensors, libraries, or APIs.
 
-[PRINCIPLE__DESCRIPTION]
+## Content Scope
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+Foundations of Physical AI and embodied intelligence.
+Humanoid robot design principles.
+Kinematics, dynamics, locomotion, balance, and control.
+Perception systems (vision, IMU, depth, tactile sensing).
+Actuators, motors, mechanical fundamentals.
+ROS2 examples and simulation workflows (Gazebo, Isaac Sim).
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
+Constitution supersedes all other practices; Amendments REQUIRE documentation, approval, migration plan. All PRs/reviews MUST verify compliance; Complexity MUST be justified; Use [GUIDANCE_FILE] for runtime development guidance.
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+### Constraints
+Output MUST successfully build with `npm run build`.
+Only markdown (.md, .mdx) and allowed assets SHOULD be generated.
+All technical statements MUST remain within established robotics research.
+Maintain consistent tone, clarity, and educational flow.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+### Success Criteria
+Completed and well-structured Docusaurus book.
+Accurate, readable, and consistent chapters.
+Build passes without warnings or errors.
+Ready for deployment on GitHub Pages.
+
+### AI Behavioral Rules
+Prioritize accuracy, clarity, and reproducibility.
+Follow the constitution for every chapter and section.
+Do not hallucinate technical details.
+Request clarification only when context is insufficient.
+
+**Version**: 1.0.0 | **Ratified**: 2025-12-04 | **Last Amended**: 2025-12-04

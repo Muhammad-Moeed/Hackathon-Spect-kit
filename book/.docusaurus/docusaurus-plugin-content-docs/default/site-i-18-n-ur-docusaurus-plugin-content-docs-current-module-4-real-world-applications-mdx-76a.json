@@ -1,0 +1,27 @@
+{
+  "id": "module4/real_world_applications",
+  "title": "Real-World Applications",
+  "description": "Learning Objectives",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/module4/real_world_applications.mdx",
+  "sourceDirName": "module4",
+  "slug": "/module4/real_world_applications",
+  "permalink": "/ur/docs/module4/real_world_applications",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "real_world_applications",
+    "title": "Real-World Applications",
+    "sidebar_label": "Applications"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Applications, Future & Innovation",
+    "permalink": "/ur/docs/category/applications-future"
+  },
+  "next": {
+    "title": "Emerging Trends",
+    "permalink": "/ur/docs/module4/emerging_trends"
+  }
+}

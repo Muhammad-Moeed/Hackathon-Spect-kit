@@ -1,0 +1,23 @@
+{
+  "id": "module4/societal_impact_ethics",
+  "title": "Societal Impact & Ethics",
+  "description": "Learning Objectives",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/module4/societal_impact_ethics.mdx",
+  "sourceDirName": "module4",
+  "slug": "/module4/societal_impact_ethics",
+  "permalink": "/ur/docs/module4/societal_impact_ethics",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "societal_impact_ethics",
+    "title": "Societal Impact & Ethics",
+    "sidebar_label": "Societal Impact"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Future Challenges",
+    "permalink": "/ur/docs/module4/future_challenges"
+  }
+}

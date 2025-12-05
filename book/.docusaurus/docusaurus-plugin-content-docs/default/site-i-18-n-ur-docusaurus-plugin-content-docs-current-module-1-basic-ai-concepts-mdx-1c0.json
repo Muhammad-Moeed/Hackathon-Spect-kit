@@ -1,0 +1,27 @@
+{
+  "id": "module1/basic_ai_concepts",
+  "title": "Robotics کے لیے بنیادی AI تصورات",
+  "description": "سیکھنے کے مقاصد",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/module1/basic_ai_concepts.mdx",
+  "sourceDirName": "module1",
+  "slug": "/module1/basic_ai_concepts",
+  "permalink": "/ur/docs/module1/basic_ai_concepts",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "basic_ai_concepts",
+    "title": "Robotics کے لیے بنیادی AI تصورات",
+    "sidebar_label": "بنیادی AI تصورات"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "تعارف",
+    "permalink": "/ur/docs/module1/introduction"
+  },
+  "next": {
+    "title": "Embodied Intelligence",
+    "permalink": "/ur/docs/module1/embodied_intelligence"
+  }
+}

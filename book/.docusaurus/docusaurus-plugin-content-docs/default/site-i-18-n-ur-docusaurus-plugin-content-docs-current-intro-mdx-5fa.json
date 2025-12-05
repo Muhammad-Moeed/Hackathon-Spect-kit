@@ -1,0 +1,24 @@
+{
+  "id": "intro",
+  "title": "تعارف",
+  "description": "Physical AI & Humanoid Robotics کتاب میں خوش آمدید!",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/intro.mdx",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/ur/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "intro",
+    "title": "تعارف",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Foundations of Physical AI",
+    "permalink": "/ur/docs/category/foundations"
+  }
+}

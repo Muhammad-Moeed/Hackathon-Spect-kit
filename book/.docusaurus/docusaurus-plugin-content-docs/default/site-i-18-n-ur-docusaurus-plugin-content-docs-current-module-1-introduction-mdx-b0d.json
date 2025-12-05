@@ -1,0 +1,27 @@
+{
+  "id": "module1/introduction",
+  "title": "Physical AI کا تعارف",
+  "description": "سیکھنے کے مقاصد",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/module1/introduction.mdx",
+  "sourceDirName": "module1",
+  "slug": "/module1/introduction",
+  "permalink": "/ur/docs/module1/introduction",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "introduction",
+    "title": "Physical AI کا تعارف",
+    "sidebar_label": "تعارف"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Foundations of Physical AI",
+    "permalink": "/ur/docs/category/foundations"
+  },
+  "next": {
+    "title": "بنیادی AI تصورات",
+    "permalink": "/ur/docs/module1/basic_ai_concepts"
+  }
+}

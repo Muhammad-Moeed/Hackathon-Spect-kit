@@ -1,0 +1,27 @@
+{
+  "id": "module3/decision_making_planning",
+  "title": "Decision-Making and Planning",
+  "description": "Learning Objectives",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/module3/decision_making_planning.mdx",
+  "sourceDirName": "module3",
+  "slug": "/module3/decision_making_planning",
+  "permalink": "/ur/docs/module3/decision_making_planning",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "decision_making_planning",
+    "title": "Decision-Making and Planning",
+    "sidebar_label": "Decision Making & Planning"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Learning Paradigms",
+    "permalink": "/ur/docs/module3/robot_learning_paradigms"
+  },
+  "next": {
+    "title": "HRI",
+    "permalink": "/ur/docs/module3/human_robot_interaction"
+  }
+}

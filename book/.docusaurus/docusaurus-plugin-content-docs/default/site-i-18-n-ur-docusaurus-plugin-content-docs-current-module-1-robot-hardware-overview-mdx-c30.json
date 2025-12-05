@@ -1,0 +1,27 @@
+{
+  "id": "module1/robot_hardware_overview",
+  "title": "Robot Hardware Overview",
+  "description": "سیکھنے کے مقاصد",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/module1/robot_hardware_overview.mdx",
+  "sourceDirName": "module1",
+  "slug": "/module1/robot_hardware_overview",
+  "permalink": "/ur/docs/module1/robot_hardware_overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "robot_hardware_overview",
+    "title": "Robot Hardware Overview",
+    "sidebar_label": "Robot Hardware Overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Embodied Intelligence",
+    "permalink": "/ur/docs/module1/embodied_intelligence"
+  },
+  "next": {
+    "title": "Humanoid Robotics Engineering",
+    "permalink": "/ur/docs/category/robotics-engineering"
+  }
+}

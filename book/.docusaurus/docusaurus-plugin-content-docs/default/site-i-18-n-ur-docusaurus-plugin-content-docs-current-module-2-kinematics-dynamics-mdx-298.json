@@ -1,0 +1,27 @@
+{
+  "id": "module2/kinematics_dynamics",
+  "title": "Kinematics and Dynamics",
+  "description": "سیکھنے کے مقاصد",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/module2/kinematics_dynamics.mdx",
+  "sourceDirName": "module2",
+  "slug": "/module2/kinematics_dynamics",
+  "permalink": "/ur/docs/module2/kinematics_dynamics",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "kinematics_dynamics",
+    "title": "Kinematics and Dynamics",
+    "sidebar_label": "Kinematics & Dynamics"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Design Principles",
+    "permalink": "/ur/docs/module2/humanoid_design_principles"
+  },
+  "next": {
+    "title": "Locomotion & Balance",
+    "permalink": "/ur/docs/module2/locomotion_balance"
+  }
+}

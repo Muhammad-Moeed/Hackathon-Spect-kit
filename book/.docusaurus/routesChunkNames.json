@@ -1,0 +1,170 @@
+{
+  "/Hackathon-Spect-kit/__docusaurus/debug-48e": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---hackathon-spect-kit-docusaurus-debugb-38-e34"
+    }
+  },
+  "/Hackathon-Spect-kit/__docusaurus/debug/config-347": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---hackathon-spect-kit-docusaurus-debugb-38-e34"
+    }
+  },
+  "/Hackathon-Spect-kit/__docusaurus/debug/content-810": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---hackathon-spect-kit-docusaurus-debugb-38-e34"
+    },
+    "__props": "__props---hackathon-spect-kit-docusaurus-debug-content-2-c-0-1bb"
+  },
+  "/Hackathon-Spect-kit/__docusaurus/debug/globalData-a87": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---hackathon-spect-kit-docusaurus-debugb-38-e34"
+    }
+  },
+  "/Hackathon-Spect-kit/__docusaurus/debug/metadata-1f2": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---hackathon-spect-kit-docusaurus-debugb-38-e34"
+    }
+  },
+  "/Hackathon-Spect-kit/__docusaurus/debug/registry-fb7": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---hackathon-spect-kit-docusaurus-debugb-38-e34"
+    }
+  },
+  "/Hackathon-Spect-kit/__docusaurus/debug/routes-32f": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---hackathon-spect-kit-docusaurus-debugb-38-e34"
+    }
+  },
+  "/Hackathon-Spect-kit/login-75b": {
+    "__comp": "__comp---site-src-pages-login-js-380-710",
+    "__context": {
+      "plugin": "plugin---hackathon-spect-kit-logina-74-a7a"
+    },
+    "config": "config---hackathon-spect-kit-login-5-e-9-870"
+  },
+  "/Hackathon-Spect-kit/profile-1c0": {
+    "__comp": "__comp---site-src-pages-profile-jsd-07-cca",
+    "__context": {
+      "plugin": "plugin---hackathon-spect-kit-logina-74-a7a"
+    },
+    "config": "config---hackathon-spect-kit-login-5-e-9-870"
+  },
+  "/Hackathon-Spect-kit/signup-1af": {
+    "__comp": "__comp---site-src-pages-signup-js-83-a-147",
+    "__context": {
+      "plugin": "plugin---hackathon-spect-kit-logina-74-a7a"
+    },
+    "config": "config---hackathon-spect-kit-login-5-e-9-870"
+  },
+  "/Hackathon-Spect-kit/docs-771": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---hackathon-spect-kit-docsaba-6d3"
+    }
+  },
+  "/Hackathon-Spect-kit/docs-797": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---hackathon-spect-kit-docsa-3-d-29b"
+  },
+  "/Hackathon-Spect-kit/docs-f1f": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/Hackathon-Spect-kit/docs/category/applications-future-6f2": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---hackathon-spect-kit-docs-category-applications-future-46-c-336"
+  },
+  "/Hackathon-Spect-kit/docs/category/foundations-b04": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---hackathon-spect-kit-docs-category-foundations-967-0b7"
+  },
+  "/Hackathon-Spect-kit/docs/category/intelligence-learning-79f": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---hackathon-spect-kit-docs-category-intelligence-learning-7-cc-e1a"
+  },
+  "/Hackathon-Spect-kit/docs/category/robotics-engineering-5cd": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---hackathon-spect-kit-docs-category-robotics-engineering-6-a-6-000"
+  },
+  "/Hackathon-Spect-kit/docs/intro-076": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-spect-kit-docs-introf-84-06f"
+  },
+  "/Hackathon-Spect-kit/docs/module1/basic_ai_concepts-6da": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-spect-kit-docs-module-1-basic-ai-conceptse-05-c46"
+  },
+  "/Hackathon-Spect-kit/docs/module1/embodied_intelligence-cdf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-spect-kit-docs-module-1-embodied-intelligence-02-e-8ae"
+  },
+  "/Hackathon-Spect-kit/docs/module1/introduction-252": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-spect-kit-docs-module-1-introductionef-8-856"
+  },
+  "/Hackathon-Spect-kit/docs/module1/robot_hardware_overview-8eb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-spect-kit-docs-module-1-robot-hardware-overview-08-c-877"
+  },
+  "/Hackathon-Spect-kit/docs/module2/actuator_control-12d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-spect-kit-docs-module-2-actuator-control-52-f-66c"
+  },
+  "/Hackathon-Spect-kit/docs/module2/humanoid_design_principles-6db": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-spect-kit-docs-module-2-humanoid-design-principles-6-ff-f2b"
+  },
+  "/Hackathon-Spect-kit/docs/module2/kinematics_dynamics-c9f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-spect-kit-docs-module-2-kinematics-dynamicsa-45-b24"
+  },
+  "/Hackathon-Spect-kit/docs/module2/locomotion_balance-e9a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-spect-kit-docs-module-2-locomotion-balance-039-7af"
+  },
+  "/Hackathon-Spect-kit/docs/module3/decision_making_planning-50f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-spect-kit-docs-module-3-decision-making-planning-732-8d1"
+  },
+  "/Hackathon-Spect-kit/docs/module3/human_robot_interaction-7d7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-spect-kit-docs-module-3-human-robot-interactionf-87-db8"
+  },
+  "/Hackathon-Spect-kit/docs/module3/robot_learning_paradigms-d22": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-spect-kit-docs-module-3-robot-learning-paradigmsef-4-bec"
+  },
+  "/Hackathon-Spect-kit/docs/module3/social_ethical_implications-705": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-spect-kit-docs-module-3-social-ethical-implications-66-d-5c5"
+  },
+  "/Hackathon-Spect-kit/docs/module4/emerging_trends-fdf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-spect-kit-docs-module-4-emerging-trends-374-c5f"
+  },
+  "/Hackathon-Spect-kit/docs/module4/future_challenges-c02": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-spect-kit-docs-module-4-future-challengesbed-b50"
+  },
+  "/Hackathon-Spect-kit/docs/module4/real_world_applications-492": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-spect-kit-docs-module-4-real-world-applicationsb-3-d-26e"
+  },
+  "/Hackathon-Spect-kit/docs/module4/societal_impact_ethics-272": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-spect-kit-docs-module-4-societal-impact-ethicsa-0-e-722"
+  },
+  "/Hackathon-Spect-kit/-031": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---hackathon-spect-kit-logina-74-a7a"
+    },
+    "config": "config---hackathon-spect-kit-login-5-e-9-870"
+  }
+}
