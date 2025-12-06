@@ -3,155 +3,155 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/Hackathon-Spect-kit/book/login',
-    component: ComponentCreator('/Hackathon-Spect-kit/book/login', '28a'),
+    path: '/Hackathon-Spect-kit/login',
+    component: ComponentCreator('/Hackathon-Spect-kit/login', '75b'),
     exact: true
   },
   {
-    path: '/Hackathon-Spect-kit/book/profile',
-    component: ComponentCreator('/Hackathon-Spect-kit/book/profile', '245'),
+    path: '/Hackathon-Spect-kit/profile',
+    component: ComponentCreator('/Hackathon-Spect-kit/profile', '1c0'),
     exact: true
   },
   {
-    path: '/Hackathon-Spect-kit/book/signup',
-    component: ComponentCreator('/Hackathon-Spect-kit/book/signup', '88e'),
+    path: '/Hackathon-Spect-kit/signup',
+    component: ComponentCreator('/Hackathon-Spect-kit/signup', '1af'),
     exact: true
   },
   {
-    path: '/Hackathon-Spect-kit/book/docs',
-    component: ComponentCreator('/Hackathon-Spect-kit/book/docs', '0d2'),
+    path: '/Hackathon-Spect-kit/docs',
+    component: ComponentCreator('/Hackathon-Spect-kit/docs', '771'),
     routes: [
       {
-        path: '/Hackathon-Spect-kit/book/docs',
-        component: ComponentCreator('/Hackathon-Spect-kit/book/docs', '53e'),
+        path: '/Hackathon-Spect-kit/docs',
+        component: ComponentCreator('/Hackathon-Spect-kit/docs', '797'),
         routes: [
           {
-            path: '/Hackathon-Spect-kit/book/docs',
-            component: ComponentCreator('/Hackathon-Spect-kit/book/docs', '4bd'),
+            path: '/Hackathon-Spect-kit/docs',
+            component: ComponentCreator('/Hackathon-Spect-kit/docs', 'f1f'),
             routes: [
               {
-                path: '/Hackathon-Spect-kit/book/docs/category/applications-future',
-                component: ComponentCreator('/Hackathon-Spect-kit/book/docs/category/applications-future', '556'),
+                path: '/Hackathon-Spect-kit/docs/category/applications-future',
+                component: ComponentCreator('/Hackathon-Spect-kit/docs/category/applications-future', '6f2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Hackathon-Spect-kit/book/docs/category/foundations',
-                component: ComponentCreator('/Hackathon-Spect-kit/book/docs/category/foundations', 'a42'),
+                path: '/Hackathon-Spect-kit/docs/category/foundations',
+                component: ComponentCreator('/Hackathon-Spect-kit/docs/category/foundations', 'b04'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Hackathon-Spect-kit/book/docs/category/intelligence-learning',
-                component: ComponentCreator('/Hackathon-Spect-kit/book/docs/category/intelligence-learning', 'a26'),
+                path: '/Hackathon-Spect-kit/docs/category/intelligence-learning',
+                component: ComponentCreator('/Hackathon-Spect-kit/docs/category/intelligence-learning', '79f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Hackathon-Spect-kit/book/docs/category/robotics-engineering',
-                component: ComponentCreator('/Hackathon-Spect-kit/book/docs/category/robotics-engineering', '947'),
+                path: '/Hackathon-Spect-kit/docs/category/robotics-engineering',
+                component: ComponentCreator('/Hackathon-Spect-kit/docs/category/robotics-engineering', '5cd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Hackathon-Spect-kit/book/docs/intro',
-                component: ComponentCreator('/Hackathon-Spect-kit/book/docs/intro', 'fb7'),
+                path: '/Hackathon-Spect-kit/docs/intro',
+                component: ComponentCreator('/Hackathon-Spect-kit/docs/intro', '076'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Hackathon-Spect-kit/book/docs/module1/basic_ai_concepts',
-                component: ComponentCreator('/Hackathon-Spect-kit/book/docs/module1/basic_ai_concepts', 'af5'),
+                path: '/Hackathon-Spect-kit/docs/module1/basic_ai_concepts',
+                component: ComponentCreator('/Hackathon-Spect-kit/docs/module1/basic_ai_concepts', '6da'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Hackathon-Spect-kit/book/docs/module1/embodied_intelligence',
-                component: ComponentCreator('/Hackathon-Spect-kit/book/docs/module1/embodied_intelligence', '409'),
+                path: '/Hackathon-Spect-kit/docs/module1/embodied_intelligence',
+                component: ComponentCreator('/Hackathon-Spect-kit/docs/module1/embodied_intelligence', 'cdf'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Hackathon-Spect-kit/book/docs/module1/introduction',
-                component: ComponentCreator('/Hackathon-Spect-kit/book/docs/module1/introduction', '9a0'),
+                path: '/Hackathon-Spect-kit/docs/module1/introduction',
+                component: ComponentCreator('/Hackathon-Spect-kit/docs/module1/introduction', '252'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Hackathon-Spect-kit/book/docs/module1/robot_hardware_overview',
-                component: ComponentCreator('/Hackathon-Spect-kit/book/docs/module1/robot_hardware_overview', 'dea'),
+                path: '/Hackathon-Spect-kit/docs/module1/robot_hardware_overview',
+                component: ComponentCreator('/Hackathon-Spect-kit/docs/module1/robot_hardware_overview', '8eb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Hackathon-Spect-kit/book/docs/module2/actuator_control',
-                component: ComponentCreator('/Hackathon-Spect-kit/book/docs/module2/actuator_control', '7c2'),
+                path: '/Hackathon-Spect-kit/docs/module2/actuator_control',
+                component: ComponentCreator('/Hackathon-Spect-kit/docs/module2/actuator_control', '12d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Hackathon-Spect-kit/book/docs/module2/humanoid_design_principles',
-                component: ComponentCreator('/Hackathon-Spect-kit/book/docs/module2/humanoid_design_principles', '34d'),
+                path: '/Hackathon-Spect-kit/docs/module2/humanoid_design_principles',
+                component: ComponentCreator('/Hackathon-Spect-kit/docs/module2/humanoid_design_principles', '6db'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Hackathon-Spect-kit/book/docs/module2/kinematics_dynamics',
-                component: ComponentCreator('/Hackathon-Spect-kit/book/docs/module2/kinematics_dynamics', '7f7'),
+                path: '/Hackathon-Spect-kit/docs/module2/kinematics_dynamics',
+                component: ComponentCreator('/Hackathon-Spect-kit/docs/module2/kinematics_dynamics', 'c9f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Hackathon-Spect-kit/book/docs/module2/locomotion_balance',
-                component: ComponentCreator('/Hackathon-Spect-kit/book/docs/module2/locomotion_balance', '817'),
+                path: '/Hackathon-Spect-kit/docs/module2/locomotion_balance',
+                component: ComponentCreator('/Hackathon-Spect-kit/docs/module2/locomotion_balance', 'e9a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Hackathon-Spect-kit/book/docs/module3/decision_making_planning',
-                component: ComponentCreator('/Hackathon-Spect-kit/book/docs/module3/decision_making_planning', 'a56'),
+                path: '/Hackathon-Spect-kit/docs/module3/decision_making_planning',
+                component: ComponentCreator('/Hackathon-Spect-kit/docs/module3/decision_making_planning', '50f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Hackathon-Spect-kit/book/docs/module3/human_robot_interaction',
-                component: ComponentCreator('/Hackathon-Spect-kit/book/docs/module3/human_robot_interaction', '6f5'),
+                path: '/Hackathon-Spect-kit/docs/module3/human_robot_interaction',
+                component: ComponentCreator('/Hackathon-Spect-kit/docs/module3/human_robot_interaction', '7d7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Hackathon-Spect-kit/book/docs/module3/robot_learning_paradigms',
-                component: ComponentCreator('/Hackathon-Spect-kit/book/docs/module3/robot_learning_paradigms', 'd8c'),
+                path: '/Hackathon-Spect-kit/docs/module3/robot_learning_paradigms',
+                component: ComponentCreator('/Hackathon-Spect-kit/docs/module3/robot_learning_paradigms', 'd22'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Hackathon-Spect-kit/book/docs/module3/social_ethical_implications',
-                component: ComponentCreator('/Hackathon-Spect-kit/book/docs/module3/social_ethical_implications', '6a7'),
+                path: '/Hackathon-Spect-kit/docs/module3/social_ethical_implications',
+                component: ComponentCreator('/Hackathon-Spect-kit/docs/module3/social_ethical_implications', '705'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Hackathon-Spect-kit/book/docs/module4/emerging_trends',
-                component: ComponentCreator('/Hackathon-Spect-kit/book/docs/module4/emerging_trends', 'c90'),
+                path: '/Hackathon-Spect-kit/docs/module4/emerging_trends',
+                component: ComponentCreator('/Hackathon-Spect-kit/docs/module4/emerging_trends', 'fdf'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Hackathon-Spect-kit/book/docs/module4/future_challenges',
-                component: ComponentCreator('/Hackathon-Spect-kit/book/docs/module4/future_challenges', 'd96'),
+                path: '/Hackathon-Spect-kit/docs/module4/future_challenges',
+                component: ComponentCreator('/Hackathon-Spect-kit/docs/module4/future_challenges', 'c02'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Hackathon-Spect-kit/book/docs/module4/real_world_applications',
-                component: ComponentCreator('/Hackathon-Spect-kit/book/docs/module4/real_world_applications', '9fa'),
+                path: '/Hackathon-Spect-kit/docs/module4/real_world_applications',
+                component: ComponentCreator('/Hackathon-Spect-kit/docs/module4/real_world_applications', '492'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Hackathon-Spect-kit/book/docs/module4/societal_impact_ethics',
-                component: ComponentCreator('/Hackathon-Spect-kit/book/docs/module4/societal_impact_ethics', 'a84'),
+                path: '/Hackathon-Spect-kit/docs/module4/societal_impact_ethics',
+                component: ComponentCreator('/Hackathon-Spect-kit/docs/module4/societal_impact_ethics', '272'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -162,8 +162,8 @@ export default [
     ]
   },
   {
-    path: '/Hackathon-Spect-kit/book/',
-    component: ComponentCreator('/Hackathon-Spect-kit/book/', '423'),
+    path: '/Hackathon-Spect-kit/',
+    component: ComponentCreator('/Hackathon-Spect-kit/', '031'),
     exact: true
   },
   {

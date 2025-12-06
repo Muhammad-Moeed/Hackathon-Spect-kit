@@ -5,7 +5,7 @@
   "source": "@site/docs/intro.mdx",
   "sourceDirName": ".",
   "slug": "/intro",
-  "permalink": "/Hackathon-Spect-kit/book/docs/intro",
+  "permalink": "/Hackathon-Spect-kit/docs/intro",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -19,6 +19,6 @@
   "sidebar": "tutorialSidebar",
   "next": {
     "title": "Foundations of Physical AI",
-    "permalink": "/Hackathon-Spect-kit/book/docs/category/foundations"
+    "permalink": "/Hackathon-Spect-kit/docs/category/foundations"
   }
 }

@@ -5,7 +5,7 @@
   "source": "@site/docs/module2/kinematics_dynamics.mdx",
   "sourceDirName": "module2",
   "slug": "/module2/kinematics_dynamics",
-  "permalink": "/Hackathon-Spect-kit/book/docs/module2/kinematics_dynamics",
+  "permalink": "/Hackathon-Spect-kit/docs/module2/kinematics_dynamics",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Design Principles",
-    "permalink": "/Hackathon-Spect-kit/book/docs/module2/humanoid_design_principles"
+    "permalink": "/Hackathon-Spect-kit/docs/module2/humanoid_design_principles"
   },
   "next": {
     "title": "Locomotion & Balance",
-    "permalink": "/Hackathon-Spect-kit/book/docs/module2/locomotion_balance"
+    "permalink": "/Hackathon-Spect-kit/docs/module2/locomotion_balance"
   }
 }

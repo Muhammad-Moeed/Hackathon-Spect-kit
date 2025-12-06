@@ -5,7 +5,7 @@
   "source": "@site/docs/module3/robot_learning_paradigms.mdx",
   "sourceDirName": "module3",
   "slug": "/module3/robot_learning_paradigms",
-  "permalink": "/Hackathon-Spect-kit/book/docs/module3/robot_learning_paradigms",
+  "permalink": "/Hackathon-Spect-kit/docs/module3/robot_learning_paradigms",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Intelligence, Learning & Interaction",
-    "permalink": "/Hackathon-Spect-kit/book/docs/category/intelligence-learning"
+    "permalink": "/Hackathon-Spect-kit/docs/category/intelligence-learning"
   },
   "next": {
     "title": "Decision Making & Planning",
-    "permalink": "/Hackathon-Spect-kit/book/docs/module3/decision_making_planning"
+    "permalink": "/Hackathon-Spect-kit/docs/module3/decision_making_planning"
   }
 }

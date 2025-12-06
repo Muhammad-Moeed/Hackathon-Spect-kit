@@ -1,118 +1,118 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/Hackathon-Spect-kit/book/docs",
+      "path": "/Hackathon-Spect-kit/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/Hackathon-Spect-kit/book/docs",
+          "path": "/Hackathon-Spect-kit/docs",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "intro",
-              "path": "/Hackathon-Spect-kit/book/docs/intro",
+              "path": "/Hackathon-Spect-kit/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module1/basic_ai_concepts",
-              "path": "/Hackathon-Spect-kit/book/docs/module1/basic_ai_concepts",
+              "path": "/Hackathon-Spect-kit/docs/module1/basic_ai_concepts",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module1/embodied_intelligence",
-              "path": "/Hackathon-Spect-kit/book/docs/module1/embodied_intelligence",
+              "path": "/Hackathon-Spect-kit/docs/module1/embodied_intelligence",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module1/introduction",
-              "path": "/Hackathon-Spect-kit/book/docs/module1/introduction",
+              "path": "/Hackathon-Spect-kit/docs/module1/introduction",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module1/robot_hardware_overview",
-              "path": "/Hackathon-Spect-kit/book/docs/module1/robot_hardware_overview",
+              "path": "/Hackathon-Spect-kit/docs/module1/robot_hardware_overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module2/actuator_control",
-              "path": "/Hackathon-Spect-kit/book/docs/module2/actuator_control",
+              "path": "/Hackathon-Spect-kit/docs/module2/actuator_control",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module2/humanoid_design_principles",
-              "path": "/Hackathon-Spect-kit/book/docs/module2/humanoid_design_principles",
+              "path": "/Hackathon-Spect-kit/docs/module2/humanoid_design_principles",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module2/kinematics_dynamics",
-              "path": "/Hackathon-Spect-kit/book/docs/module2/kinematics_dynamics",
+              "path": "/Hackathon-Spect-kit/docs/module2/kinematics_dynamics",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module2/locomotion_balance",
-              "path": "/Hackathon-Spect-kit/book/docs/module2/locomotion_balance",
+              "path": "/Hackathon-Spect-kit/docs/module2/locomotion_balance",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module3/decision_making_planning",
-              "path": "/Hackathon-Spect-kit/book/docs/module3/decision_making_planning",
+              "path": "/Hackathon-Spect-kit/docs/module3/decision_making_planning",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module3/human_robot_interaction",
-              "path": "/Hackathon-Spect-kit/book/docs/module3/human_robot_interaction",
+              "path": "/Hackathon-Spect-kit/docs/module3/human_robot_interaction",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module3/robot_learning_paradigms",
-              "path": "/Hackathon-Spect-kit/book/docs/module3/robot_learning_paradigms",
+              "path": "/Hackathon-Spect-kit/docs/module3/robot_learning_paradigms",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module3/social_ethical_implications",
-              "path": "/Hackathon-Spect-kit/book/docs/module3/social_ethical_implications",
+              "path": "/Hackathon-Spect-kit/docs/module3/social_ethical_implications",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module4/emerging_trends",
-              "path": "/Hackathon-Spect-kit/book/docs/module4/emerging_trends",
+              "path": "/Hackathon-Spect-kit/docs/module4/emerging_trends",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module4/future_challenges",
-              "path": "/Hackathon-Spect-kit/book/docs/module4/future_challenges",
+              "path": "/Hackathon-Spect-kit/docs/module4/future_challenges",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module4/real_world_applications",
-              "path": "/Hackathon-Spect-kit/book/docs/module4/real_world_applications",
+              "path": "/Hackathon-Spect-kit/docs/module4/real_world_applications",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module4/societal_impact_ethics",
-              "path": "/Hackathon-Spect-kit/book/docs/module4/societal_impact_ethics",
+              "path": "/Hackathon-Spect-kit/docs/module4/societal_impact_ethics",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/foundations",
-              "path": "/Hackathon-Spect-kit/book/docs/category/foundations",
+              "path": "/Hackathon-Spect-kit/docs/category/foundations",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/robotics-engineering",
-              "path": "/Hackathon-Spect-kit/book/docs/category/robotics-engineering",
+              "path": "/Hackathon-Spect-kit/docs/category/robotics-engineering",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/intelligence-learning",
-              "path": "/Hackathon-Spect-kit/book/docs/category/intelligence-learning",
+              "path": "/Hackathon-Spect-kit/docs/category/intelligence-learning",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/applications-future",
-              "path": "/Hackathon-Spect-kit/book/docs/category/applications-future",
+              "path": "/Hackathon-Spect-kit/docs/category/applications-future",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -120,7 +120,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/Hackathon-Spect-kit/book/docs/intro",
+                "path": "/Hackathon-Spect-kit/docs/intro",
                 "label": "intro"
               }
             }

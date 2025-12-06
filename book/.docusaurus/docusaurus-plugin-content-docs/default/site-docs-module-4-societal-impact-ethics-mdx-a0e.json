@@ -5,7 +5,7 @@
   "source": "@site/docs/module4/societal_impact_ethics.mdx",
   "sourceDirName": "module4",
   "slug": "/module4/societal_impact_ethics",
-  "permalink": "/Hackathon-Spect-kit/book/docs/module4/societal_impact_ethics",
+  "permalink": "/Hackathon-Spect-kit/docs/module4/societal_impact_ethics",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -18,6 +18,6 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Future Challenges",
-    "permalink": "/Hackathon-Spect-kit/book/docs/module4/future_challenges"
+    "permalink": "/Hackathon-Spect-kit/docs/module4/future_challenges"
   }
 }

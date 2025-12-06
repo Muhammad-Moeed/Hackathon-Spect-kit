@@ -1,123 +1,123 @@
 {
-  "/Hackathon-Spect-kit/book/login-28a": {
+  "/Hackathon-Spect-kit/login-75b": {
     "__comp": "380abe66",
     "__context": {
       "plugin": "a7456010"
     },
     "config": "5e9f5e1a"
   },
-  "/Hackathon-Spect-kit/book/profile-245": {
+  "/Hackathon-Spect-kit/profile-1c0": {
     "__comp": "d07a6622",
     "__context": {
       "plugin": "a7456010"
     },
     "config": "5e9f5e1a"
   },
-  "/Hackathon-Spect-kit/book/signup-88e": {
+  "/Hackathon-Spect-kit/signup-1af": {
     "__comp": "83ac7242",
     "__context": {
       "plugin": "a7456010"
     },
     "config": "5e9f5e1a"
   },
-  "/Hackathon-Spect-kit/book/docs-0d2": {
+  "/Hackathon-Spect-kit/docs-771": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/Hackathon-Spect-kit/book/docs-53e": {
+  "/Hackathon-Spect-kit/docs-797": {
     "__comp": "a7bd4aaa",
-    "__props": "62b6f0a7"
+    "__props": "a3de8736"
   },
-  "/Hackathon-Spect-kit/book/docs-4bd": {
+  "/Hackathon-Spect-kit/docs-f1f": {
     "__comp": "a94703ab"
   },
-  "/Hackathon-Spect-kit/book/docs/category/applications-future-556": {
+  "/Hackathon-Spect-kit/docs/category/applications-future-6f2": {
     "__comp": "14eb3368",
-    "__props": "26a46747"
+    "__props": "46c603a6"
   },
-  "/Hackathon-Spect-kit/book/docs/category/foundations-a42": {
+  "/Hackathon-Spect-kit/docs/category/foundations-b04": {
     "__comp": "14eb3368",
-    "__props": "4e1e324b"
+    "__props": "967eb14f"
   },
-  "/Hackathon-Spect-kit/book/docs/category/intelligence-learning-a26": {
+  "/Hackathon-Spect-kit/docs/category/intelligence-learning-79f": {
     "__comp": "14eb3368",
-    "__props": "0611b2b7"
+    "__props": "7ccd0244"
   },
-  "/Hackathon-Spect-kit/book/docs/category/robotics-engineering-947": {
+  "/Hackathon-Spect-kit/docs/category/robotics-engineering-5cd": {
     "__comp": "14eb3368",
-    "__props": "a0c8008c"
+    "__props": "6a694d3f"
   },
-  "/Hackathon-Spect-kit/book/docs/intro-fb7": {
+  "/Hackathon-Spect-kit/docs/intro-076": {
     "__comp": "17896441",
     "content": "f8409a7e"
   },
-  "/Hackathon-Spect-kit/book/docs/module1/basic_ai_concepts-af5": {
+  "/Hackathon-Spect-kit/docs/module1/basic_ai_concepts-6da": {
     "__comp": "17896441",
     "content": "e05221e0"
   },
-  "/Hackathon-Spect-kit/book/docs/module1/embodied_intelligence-409": {
+  "/Hackathon-Spect-kit/docs/module1/embodied_intelligence-cdf": {
     "__comp": "17896441",
     "content": "02eeeecf"
   },
-  "/Hackathon-Spect-kit/book/docs/module1/introduction-9a0": {
+  "/Hackathon-Spect-kit/docs/module1/introduction-252": {
     "__comp": "17896441",
     "content": "ef8c40a5"
   },
-  "/Hackathon-Spect-kit/book/docs/module1/robot_hardware_overview-dea": {
+  "/Hackathon-Spect-kit/docs/module1/robot_hardware_overview-8eb": {
     "__comp": "17896441",
     "content": "08ce628c"
   },
-  "/Hackathon-Spect-kit/book/docs/module2/actuator_control-7c2": {
+  "/Hackathon-Spect-kit/docs/module2/actuator_control-12d": {
     "__comp": "17896441",
     "content": "52f77fdd"
   },
-  "/Hackathon-Spect-kit/book/docs/module2/humanoid_design_principles-34d": {
+  "/Hackathon-Spect-kit/docs/module2/humanoid_design_principles-6db": {
     "__comp": "17896441",
     "content": "6ff3754f"
   },
-  "/Hackathon-Spect-kit/book/docs/module2/kinematics_dynamics-7f7": {
+  "/Hackathon-Spect-kit/docs/module2/kinematics_dynamics-c9f": {
     "__comp": "17896441",
     "content": "a45fcd9e"
   },
-  "/Hackathon-Spect-kit/book/docs/module2/locomotion_balance-817": {
+  "/Hackathon-Spect-kit/docs/module2/locomotion_balance-e9a": {
     "__comp": "17896441",
     "content": "03944fd9"
   },
-  "/Hackathon-Spect-kit/book/docs/module3/decision_making_planning-a56": {
+  "/Hackathon-Spect-kit/docs/module3/decision_making_planning-50f": {
     "__comp": "17896441",
     "content": "73250abe"
   },
-  "/Hackathon-Spect-kit/book/docs/module3/human_robot_interaction-6f5": {
+  "/Hackathon-Spect-kit/docs/module3/human_robot_interaction-7d7": {
     "__comp": "17896441",
     "content": "f87517af"
   },
-  "/Hackathon-Spect-kit/book/docs/module3/robot_learning_paradigms-d8c": {
+  "/Hackathon-Spect-kit/docs/module3/robot_learning_paradigms-d22": {
     "__comp": "17896441",
     "content": "ef4d3efb"
   },
-  "/Hackathon-Spect-kit/book/docs/module3/social_ethical_implications-6a7": {
+  "/Hackathon-Spect-kit/docs/module3/social_ethical_implications-705": {
     "__comp": "17896441",
     "content": "66db0304"
   },
-  "/Hackathon-Spect-kit/book/docs/module4/emerging_trends-c90": {
+  "/Hackathon-Spect-kit/docs/module4/emerging_trends-fdf": {
     "__comp": "17896441",
     "content": "374ec3d8"
   },
-  "/Hackathon-Spect-kit/book/docs/module4/future_challenges-d96": {
+  "/Hackathon-Spect-kit/docs/module4/future_challenges-c02": {
     "__comp": "17896441",
     "content": "bed6f627"
   },
-  "/Hackathon-Spect-kit/book/docs/module4/real_world_applications-9fa": {
+  "/Hackathon-Spect-kit/docs/module4/real_world_applications-492": {
     "__comp": "17896441",
     "content": "b3dac5b0"
   },
-  "/Hackathon-Spect-kit/book/docs/module4/societal_impact_ethics-a84": {
+  "/Hackathon-Spect-kit/docs/module4/societal_impact_ethics-272": {
     "__comp": "17896441",
     "content": "a0e3e87f"
   },
-  "/Hackathon-Spect-kit/book/-423": {
+  "/Hackathon-Spect-kit/-031": {
     "__comp": "c4f5d8e4",
     "__context": {
       "plugin": "a7456010"
