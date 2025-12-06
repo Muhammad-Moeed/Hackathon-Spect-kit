@@ -28,7 +28,7 @@ export default {
     },
     "experimental_router": "browser"
   },
-  "url": "https://humanoid-robotics-book.github.io",
+  "url": "https://muhammad-moeed.github.io",
   "baseUrl": "/Hackathon-Spect-kit/",
   "organizationName": "moeedprojects",
   "projectName": "Hackathon-Spect-kit",
@@ -63,11 +63,11 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "D:\\moeed projects\\Hackathon-Spect-kit\\book\\sidebars.js"
+          "sidebarPath": "D:\\moeed projects\\hakctohne2\\Hackathon-Spect-kit\\book\\sidebars.js"
         },
         "blog": false,
         "theme": {
-          "customCss": "D:\\moeed projects\\Hackathon-Spect-kit\\book\\src\\css\\custom.css"
+          "customCss": "D:\\moeed projects\\hakctohne2\\Hackathon-Spect-kit\\book\\src\\css\\custom.css"
         }
       }
     ]
