@@ -5,7 +5,7 @@
   "source": "@site/docs/module2/locomotion_balance.mdx",
   "sourceDirName": "module2",
   "slug": "/module2/locomotion_balance",
-  "permalink": "/Hackathon-Spect-kit/docs/module2/locomotion_balance",
+  "permalink": "/Hackathon-Spect-kit/book/docs/module2/locomotion_balance",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Kinematics & Dynamics",
-    "permalink": "/Hackathon-Spect-kit/docs/module2/kinematics_dynamics"
+    "permalink": "/Hackathon-Spect-kit/book/docs/module2/kinematics_dynamics"
   },
   "next": {
     "title": "Actuator Control",
-    "permalink": "/Hackathon-Spect-kit/docs/module2/actuator_control"
+    "permalink": "/Hackathon-Spect-kit/book/docs/module2/actuator_control"
   }
 }

@@ -28,9 +28,9 @@ export default {
     },
     "experimental_router": "browser"
   },
-  "url": "https://muhammad-moeed.github.io",
-  "baseUrl": "/Hackathon-Spect-kit/",
-  "organizationName": "moeedprojects",
+  "url": "https://Muhammad-Moeed.github.io",
+  "baseUrl": "/Hackathon-Spect-kit/book/",
+  "organizationName": "Muhammad-Moeed",
   "projectName": "Hackathon-Spect-kit",
   "onBrokenLinks": "throw",
   "markdown": {

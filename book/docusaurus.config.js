@@ -15,14 +15,14 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://muhammad-moeed.github.io',
+  url: 'https://Muhammad-Moeed.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/project-name/'
-  baseUrl: '/Hackathon-Spect-kit/',
+  baseUrl: '/Hackathon-Spect-kit/book',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'moeedprojects',
+  organizationName: 'Muhammad-Moeed',
   projectName: 'Hackathon-Spect-kit',
 
   onBrokenLinks: 'throw',

@@ -26,6 +26,9 @@
     "03944fd9": [
       972
     ],
+    "0611b2b7": [
+      90
+    ],
     "08ce628c": [
       408
     ],
@@ -33,14 +36,17 @@
       869,
       969
     ],
+    "26a46747": [
+      282
+    ],
     "374ec3d8": [
       906
     ],
     "380abe66": [
       216
     ],
-    "46c603a6": [
-      864
+    "4e1e324b": [
+      633
     ],
     "52f77fdd": [
       168
@@ -48,11 +54,11 @@
     "5e95c892": [
       647
     ],
+    "62b6f0a7": [
+      673
+    ],
     "66db0304": [
       638
-    ],
-    "6a694d3f": [
-      40
     ],
     "6ff3754f": [
       892
@@ -60,20 +66,14 @@
     "73250abe": [
       484
     ],
-    "7ccd0244": [
-      18
-    ],
     "83ac7242": [
       37
     ],
-    "967eb14f": [
-      835
+    "a0c8008c": [
+      542
     ],
     "a0e3e87f": [
       112
-    ],
-    "a3de8736": [
-      238
     ],
     "a45fcd9e": [
       794
@@ -130,39 +130,21 @@
     ]
   },
   "assets": {
-    "18": {
-      "js": [
-        {
-          "file": "assets/js/7ccd0244.a25ccfdc.js",
-          "hash": "3d7422c67ed2c892",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/7ccd0244.a25ccfdc.js"
-        }
-      ]
-    },
     "37": {
       "js": [
         {
           "file": "assets/js/83ac7242.2d3ebdf8.js",
           "hash": "5cc80de29b3c7c74",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/83ac7242.2d3ebdf8.js"
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/83ac7242.2d3ebdf8.js"
         }
       ]
     },
     "38": {
       "js": [
         {
-          "file": "assets/js/02eeeecf.d62245cf.js",
-          "hash": "63f88cda9f923cc9",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/02eeeecf.d62245cf.js"
-        }
-      ]
-    },
-    "40": {
-      "js": [
-        {
-          "file": "assets/js/6a694d3f.6d41f34d.js",
-          "hash": "09d56850fdf39521",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/6a694d3f.6d41f34d.js"
+          "file": "assets/js/02eeeecf.2b2d1b03.js",
+          "hash": "f2c944ba4f7f5624",
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/02eeeecf.2b2d1b03.js"
         }
       ]
     },
@@ -171,7 +153,16 @@
         {
           "file": "assets/js/a94703ab.3e0aa80b.js",
           "hash": "0b646d30d2c9c8cd",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/a94703ab.3e0aa80b.js"
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/a94703ab.3e0aa80b.js"
+        }
+      ]
+    },
+    "90": {
+      "js": [
+        {
+          "file": "assets/js/0611b2b7.cee0634a.js",
+          "hash": "0f29e6a90fe99613",
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/0611b2b7.cee0634a.js"
         }
       ]
     },
@@ -180,34 +171,34 @@
         {
           "file": "assets/js/a7bd4aaa.52c91d37.js",
           "hash": "5d51a4a178034f3b",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/a7bd4aaa.52c91d37.js"
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/a7bd4aaa.52c91d37.js"
         }
       ]
     },
     "112": {
       "js": [
         {
-          "file": "assets/js/a0e3e87f.0ba96164.js",
-          "hash": "1978c82f60a22b5f",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/a0e3e87f.0ba96164.js"
+          "file": "assets/js/a0e3e87f.dcebc268.js",
+          "hash": "abbcd794ab9d88f1",
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/a0e3e87f.dcebc268.js"
         }
       ]
     },
     "168": {
       "js": [
         {
-          "file": "assets/js/52f77fdd.5c5254bd.js",
-          "hash": "931ced5cd9c7cbd5",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/52f77fdd.5c5254bd.js"
+          "file": "assets/js/52f77fdd.0280331e.js",
+          "hash": "ad9fef4a2f313cd8",
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/52f77fdd.0280331e.js"
         }
       ]
     },
     "177": {
       "js": [
         {
-          "file": "assets/js/b3dac5b0.f3fb0cca.js",
-          "hash": "082474c6f0e77064",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/b3dac5b0.f3fb0cca.js"
+          "file": "assets/js/b3dac5b0.5784bb23.js",
+          "hash": "2531c981b66b1906",
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/b3dac5b0.5784bb23.js"
         }
       ]
     },
@@ -216,7 +207,7 @@
         {
           "file": "assets/js/380abe66.05bb7097.js",
           "hash": "2b5578ee4966a05d",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/380abe66.05bb7097.js"
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/380abe66.05bb7097.js"
         }
       ]
     },
@@ -225,7 +216,7 @@
         {
           "file": "assets/js/a7456010.e982775e.js",
           "hash": "b8ebf96eaba5704e",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/a7456010.e982775e.js"
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/a7456010.e982775e.js"
         }
       ]
     },
@@ -234,34 +225,34 @@
         {
           "file": "assets/js/237.51fd674a.js",
           "hash": "2a2398aa7966f3c2",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/237.51fd674a.js"
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/237.51fd674a.js"
         }
       ]
     },
-    "238": {
+    "282": {
       "js": [
         {
-          "file": "assets/js/a3de8736.4873bf72.js",
-          "hash": "2184d1f314378275",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/a3de8736.4873bf72.js"
+          "file": "assets/js/26a46747.050f29ff.js",
+          "hash": "caf8ae08424ce494",
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/26a46747.050f29ff.js"
         }
       ]
     },
     "354": {
       "js": [
         {
-          "file": "assets/js/runtime~main.3043e587.js",
-          "hash": "88c4773571cda652",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/runtime~main.3043e587.js"
+          "file": "assets/js/runtime~main.4ee2a7e3.js",
+          "hash": "d9d5d361dd265ade",
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/runtime~main.4ee2a7e3.js"
         }
       ]
     },
     "382": {
       "js": [
         {
-          "file": "assets/js/ef4d3efb.8d1ad0c8.js",
-          "hash": "f4301781d894057b",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/ef4d3efb.8d1ad0c8.js"
+          "file": "assets/js/ef4d3efb.16862d3b.js",
+          "hash": "e86c9a3726ff8e34",
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/ef4d3efb.16862d3b.js"
         }
       ]
     },
@@ -270,43 +261,52 @@
         {
           "file": "assets/js/17896441.3080f6c0.js",
           "hash": "93baa92b038a4f2a",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/17896441.3080f6c0.js"
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/17896441.3080f6c0.js"
         }
       ]
     },
     "408": {
       "js": [
         {
-          "file": "assets/js/08ce628c.8ef1f3ad.js",
-          "hash": "0e50f9c3c960d5b8",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/08ce628c.8ef1f3ad.js"
+          "file": "assets/js/08ce628c.eae5eeff.js",
+          "hash": "8e5e86c304c71736",
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/08ce628c.eae5eeff.js"
         }
       ]
     },
     "461": {
       "js": [
         {
-          "file": "assets/js/e05221e0.84192f04.js",
-          "hash": "74799ca4ef6e4e46",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/e05221e0.84192f04.js"
+          "file": "assets/js/e05221e0.598d11cc.js",
+          "hash": "85a4e5b2445c5eca",
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/e05221e0.598d11cc.js"
         }
       ]
     },
     "484": {
       "js": [
         {
-          "file": "assets/js/73250abe.cf64231d.js",
-          "hash": "c07d0520333a6862",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/73250abe.cf64231d.js"
+          "file": "assets/js/73250abe.b586fd77.js",
+          "hash": "86ce40845189de87",
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/73250abe.b586fd77.js"
         }
       ]
     },
     "488": {
       "js": [
         {
-          "file": "assets/js/f87517af.2bee6031.js",
-          "hash": "016dfddf08b82cdb",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/f87517af.2bee6031.js"
+          "file": "assets/js/f87517af.1a302ec0.js",
+          "hash": "7cd47950c2024049",
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/f87517af.1a302ec0.js"
+        }
+      ]
+    },
+    "542": {
+      "js": [
+        {
+          "file": "assets/js/a0c8008c.07351812.js",
+          "hash": "800492be5ad760bc",
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/a0c8008c.07351812.js"
         }
       ]
     },
@@ -315,7 +315,16 @@
         {
           "file": "assets/js/d07a6622.69d9f4d7.js",
           "hash": "8332bbf0963a03b4",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/d07a6622.69d9f4d7.js"
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/d07a6622.69d9f4d7.js"
+        }
+      ]
+    },
+    "633": {
+      "js": [
+        {
+          "file": "assets/js/4e1e324b.c6c82c80.js",
+          "hash": "a06431fc896074e5",
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/4e1e324b.c6c82c80.js"
         }
       ]
     },
@@ -324,16 +333,16 @@
         {
           "file": "assets/js/c4f5d8e4.27c66092.js",
           "hash": "fa944b0c3246e700",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/c4f5d8e4.27c66092.js"
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/c4f5d8e4.27c66092.js"
         }
       ]
     },
     "638": {
       "js": [
         {
-          "file": "assets/js/66db0304.94bfa12b.js",
-          "hash": "2e566d949c2cbfdc",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/66db0304.94bfa12b.js"
+          "file": "assets/js/66db0304.7f32bcc9.js",
+          "hash": "3d0778d7e7476608",
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/66db0304.7f32bcc9.js"
         }
       ]
     },
@@ -342,16 +351,25 @@
         {
           "file": "assets/js/5e95c892.9626034d.js",
           "hash": "7943405e90de1342",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/5e95c892.9626034d.js"
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/5e95c892.9626034d.js"
+        }
+      ]
+    },
+    "673": {
+      "js": [
+        {
+          "file": "assets/js/62b6f0a7.87c370c6.js",
+          "hash": "e4fcbe95f0f7e376",
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/62b6f0a7.87c370c6.js"
         }
       ]
     },
     "683": {
       "js": [
         {
-          "file": "assets/js/ef8c40a5.339275b4.js",
-          "hash": "c9e2c524a2a1743c",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/ef8c40a5.339275b4.js"
+          "file": "assets/js/ef8c40a5.0f88c543.js",
+          "hash": "ee4a81f4bf148e27",
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/ef8c40a5.0f88c543.js"
         }
       ]
     },
@@ -360,43 +378,25 @@
         {
           "file": "assets/js/aba21aa0.f683e09a.js",
           "hash": "8bd6777e36329323",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/aba21aa0.f683e09a.js"
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/aba21aa0.f683e09a.js"
         }
       ]
     },
     "792": {
       "js": [
         {
-          "file": "assets/js/main.d8355840.js",
-          "hash": "444ced2253bad773",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/main.d8355840.js"
+          "file": "assets/js/main.b82c45ab.js",
+          "hash": "bc247cf1f5cb7868",
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/main.b82c45ab.js"
         }
       ]
     },
     "794": {
       "js": [
         {
-          "file": "assets/js/a45fcd9e.01d66009.js",
-          "hash": "fbb09d19c4c186d6",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/a45fcd9e.01d66009.js"
-        }
-      ]
-    },
-    "835": {
-      "js": [
-        {
-          "file": "assets/js/967eb14f.fe6d4645.js",
-          "hash": "a9e56ec0708c0628",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/967eb14f.fe6d4645.js"
-        }
-      ]
-    },
-    "864": {
-      "js": [
-        {
-          "file": "assets/js/46c603a6.81c089bf.js",
-          "hash": "b370d913392e92f3",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/46c603a6.81c089bf.js"
+          "file": "assets/js/a45fcd9e.e8b29c08.js",
+          "hash": "e775f64915aad79a",
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/a45fcd9e.e8b29c08.js"
         }
       ]
     },
@@ -405,34 +405,34 @@
         {
           "file": "assets/css/styles.c702fd0c.css",
           "hash": "3a2500833044eee8",
-          "publicPath": "/Hackathon-Spect-kit/assets/css/styles.c702fd0c.css"
+          "publicPath": "/Hackathon-Spect-kit/book/assets/css/styles.c702fd0c.css"
         }
       ]
     },
     "892": {
       "js": [
         {
-          "file": "assets/js/6ff3754f.410762f2.js",
-          "hash": "fc5d012c2d902755",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/6ff3754f.410762f2.js"
+          "file": "assets/js/6ff3754f.1b961df6.js",
+          "hash": "acb3d4aecfaf7585",
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/6ff3754f.1b961df6.js"
         }
       ]
     },
     "903": {
       "js": [
         {
-          "file": "assets/js/f8409a7e.a31d1002.js",
-          "hash": "9834f31db9d27795",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/f8409a7e.a31d1002.js"
+          "file": "assets/js/f8409a7e.24b37c4a.js",
+          "hash": "ff2e50d601553f5d",
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/f8409a7e.24b37c4a.js"
         }
       ]
     },
     "906": {
       "js": [
         {
-          "file": "assets/js/374ec3d8.bb571b4e.js",
-          "hash": "76813abd3e131ab5",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/374ec3d8.bb571b4e.js"
+          "file": "assets/js/374ec3d8.16f7f50e.js",
+          "hash": "44df1bc9d301684a",
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/374ec3d8.16f7f50e.js"
         }
       ]
     },
@@ -441,25 +441,25 @@
         {
           "file": "assets/js/14eb3368.91e6653d.js",
           "hash": "b3e59d7b221305bc",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/14eb3368.91e6653d.js"
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/14eb3368.91e6653d.js"
         }
       ]
     },
     "972": {
       "js": [
         {
-          "file": "assets/js/03944fd9.a0ab765e.js",
-          "hash": "05f52f32d866c599",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/03944fd9.a0ab765e.js"
+          "file": "assets/js/03944fd9.b3ce6f67.js",
+          "hash": "a6681c88b4f532ea",
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/03944fd9.b3ce6f67.js"
         }
       ]
     },
     "975": {
       "js": [
         {
-          "file": "assets/js/bed6f627.92ec8186.js",
-          "hash": "5797dbdb90e60edf",
-          "publicPath": "/Hackathon-Spect-kit/assets/js/bed6f627.92ec8186.js"
+          "file": "assets/js/bed6f627.605e6f36.js",
+          "hash": "5ad220eb45e1293f",
+          "publicPath": "/Hackathon-Spect-kit/book/assets/js/bed6f627.605e6f36.js"
         }
       ]
     }

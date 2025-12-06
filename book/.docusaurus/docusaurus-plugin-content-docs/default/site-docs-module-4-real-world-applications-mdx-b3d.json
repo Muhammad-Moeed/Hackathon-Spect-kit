@@ -5,7 +5,7 @@
   "source": "@site/docs/module4/real_world_applications.mdx",
   "sourceDirName": "module4",
   "slug": "/module4/real_world_applications",
-  "permalink": "/Hackathon-Spect-kit/docs/module4/real_world_applications",
+  "permalink": "/Hackathon-Spect-kit/book/docs/module4/real_world_applications",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Applications, Future & Innovation",
-    "permalink": "/Hackathon-Spect-kit/docs/category/applications-future"
+    "permalink": "/Hackathon-Spect-kit/book/docs/category/applications-future"
   },
   "next": {
     "title": "Emerging Trends",
-    "permalink": "/Hackathon-Spect-kit/docs/module4/emerging_trends"
+    "permalink": "/Hackathon-Spect-kit/book/docs/module4/emerging_trends"
   }
 }

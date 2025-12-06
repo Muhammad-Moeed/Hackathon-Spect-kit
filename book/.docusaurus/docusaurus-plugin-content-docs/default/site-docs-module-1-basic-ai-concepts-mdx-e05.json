@@ -5,7 +5,7 @@
   "source": "@site/docs/module1/basic_ai_concepts.mdx",
   "sourceDirName": "module1",
   "slug": "/module1/basic_ai_concepts",
-  "permalink": "/Hackathon-Spect-kit/docs/module1/basic_ai_concepts",
+  "permalink": "/Hackathon-Spect-kit/book/docs/module1/basic_ai_concepts",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Introduction",
-    "permalink": "/Hackathon-Spect-kit/docs/module1/introduction"
+    "permalink": "/Hackathon-Spect-kit/book/docs/module1/introduction"
   },
   "next": {
     "title": "Embodied Intelligence",
-    "permalink": "/Hackathon-Spect-kit/docs/module1/embodied_intelligence"
+    "permalink": "/Hackathon-Spect-kit/book/docs/module1/embodied_intelligence"
   }
 }

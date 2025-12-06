@@ -5,7 +5,7 @@
   "source": "@site/docs/module3/human_robot_interaction.mdx",
   "sourceDirName": "module3",
   "slug": "/module3/human_robot_interaction",
-  "permalink": "/Hackathon-Spect-kit/docs/module3/human_robot_interaction",
+  "permalink": "/Hackathon-Spect-kit/book/docs/module3/human_robot_interaction",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Decision Making & Planning",
-    "permalink": "/Hackathon-Spect-kit/docs/module3/decision_making_planning"
+    "permalink": "/Hackathon-Spect-kit/book/docs/module3/decision_making_planning"
   },
   "next": {
     "title": "Social & Ethical",
-    "permalink": "/Hackathon-Spect-kit/docs/module3/social_ethical_implications"
+    "permalink": "/Hackathon-Spect-kit/book/docs/module3/social_ethical_implications"
   }
 }
