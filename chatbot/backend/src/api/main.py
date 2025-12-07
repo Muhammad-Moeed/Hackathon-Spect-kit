@@ -57,6 +57,11 @@ app = FastAPI(
     lifespan=lifespan
 )
 
+@app.get("/")
+async def root():
+    return {"message": "Book RAG API running ✅"}
+
+
 # Include API routes
 app.include_router(query.router, prefix="/api/v1", tags=["query"])
 app.include_router(ingest.router, prefix="/api/v1", tags=["ingest"])
