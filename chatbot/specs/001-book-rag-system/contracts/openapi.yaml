@@ -1,0 +1,243 @@
+openapi: 3.0.3
+info:
+  title: Book RAG System API
+  description: API for the Book RAG System that enables question answering based on book content
+  version: 1.0.0
+  contact:
+    name: Book RAG System Team
+    email: team@example.com
+
+servers:
+  - url: https://api.book-rag-system.com/v1
+    description: Production server
+  - url: https://staging-api.book-rag-system.com/v1
+    description: Staging server
+
+paths:
+  /query:
+    post:
+      summary: Query the book RAG system
+      description: Submit a question to the RAG system and receive an answer based on book content
+      operationId: queryBook
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/QueryRequest'
+      responses:
+        '200':
+          description: Successful response with answer
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/QueryResponse'
+        '400':
+          description: Bad request - invalid input parameters
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+      security:
+        - bearerAuth: []
+
+  /ingest:
+    post:
+      summary: Ingest book content
+      description: Upload and process book content for vector storage
+      operationId: ingestBookContent
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: array
+              items:
+                $ref: '#/components/schemas/BookChunk'
+      responses:
+        '200':
+          description: Content successfully ingested
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/IngestionResponse'
+        '400':
+          description: Bad request - invalid content format
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+      security:
+        - bearerAuth: []
+
+  /health:
+    get:
+      summary: Health check
+      description: Check the health status of the API
+      operationId: healthCheck
+      responses:
+        '200':
+          description: API is healthy
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HealthResponse'
+        '500':
+          description: API is not healthy
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+components:
+  schemas:
+    QueryRequest:
+      type: object
+      required:
+        - query
+        - mode
+      properties:
+        query:
+          type: string
+          description: The question to ask about the book content
+          example: "What is the main theme of this book?"
+        mode:
+          type: string
+          enum: [full_book, selected_text]
+          description: The retrieval mode to use
+          example: "full_book"
+        selected_text:
+          type: string
+          description: The text selected by the user (required for selected_text mode)
+          example: "The book discusses artificial intelligence and its impact on society..."
+        user_id:
+          type: string
+          description: Optional user identifier for analytics
+          example: "user123"
+
+    QueryResponse:
+      type: object
+      required:
+        - answer
+        - sources
+        - confidence
+        - retrieval_time
+        - total_time
+      properties:
+        answer:
+          type: string
+          description: The answer to the query based on book content
+          example: "The main theme of this book is the ethical implications of artificial intelligence..."
+        sources:
+          type: array
+          items:
+            type: string
+          description: List of sources used to generate the answer
+          example: ["Chunk 1", "Chunk 3", "Chunk 7"]
+        confidence:
+          type: number
+          format: float
+          minimum: 0.0
+          maximum: 1.0
+          description: Confidence score in the answer
+          example: 0.85
+        retrieval_time:
+          type: number
+          format: float
+          description: Time taken for the retrieval phase in seconds
+          example: 0.8
+        total_time:
+          type: number
+          format: float
+          description: Total response time in seconds
+          example: 1.2
+
+    BookChunk:
+      type: object
+      required:
+        - id
+        - content
+        - metadata
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the chunk
+          example: "chunk-001"
+        content:
+          type: string
+          description: The text content of the chunk
+          example: "Artificial intelligence is transforming various industries..."
+        metadata:
+          type: object
+          description: Additional metadata about the chunk
+          properties:
+            book_id:
+              type: string
+              example: "book-001"
+            section:
+              type: string
+              example: "Chapter 1"
+            page_number:
+              type: integer
+              example: 15
+
+    IngestionResponse:
+      type: object
+      required:
+        - status
+        - count
+      properties:
+        status:
+          type: string
+          enum: [success]
+          example: "success"
+        count:
+          type: integer
+          description: Number of chunks successfully ingested
+          example: 150
+
+    HealthResponse:
+      type: object
+      required:
+        - status
+        - timestamp
+      properties:
+        status:
+          type: string
+          enum: [healthy]
+          example: "healthy"
+        timestamp:
+          type: string
+          format: date-time
+          example: "2023-10-01T12:00:00Z"
+
+    ErrorResponse:
+      type: object
+      required:
+        - error
+        - message
+      properties:
+        error:
+          type: string
+          example: "validation_error"
+        message:
+          type: string
+          example: "Query cannot be empty"
+
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
