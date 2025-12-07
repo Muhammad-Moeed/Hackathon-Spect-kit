@@ -4,7 +4,7 @@ Sets up FastAPI application with routing and middleware
 """
 from fastapi import FastAPI
 from contextlib import asynccontextmanager
-from .endpoints import query, ingest
+from . import query, ingest
 from ..core.config import settings
 from ..core.database import db_instance
 from ..core.vector_store import VectorStore
