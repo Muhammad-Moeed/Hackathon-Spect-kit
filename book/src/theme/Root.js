@@ -1,7 +1,12 @@
 import React from 'react';
 import { AuthProvider } from '../hooks/useAuth';
+import Chatbot from '../components/Chatbot';
 
 export default function Root({ children }) {
-  return <AuthProvider>{children}</AuthProvider>;
+  return (
+    <AuthProvider>
+      {children}
+      <Chatbot />
+    </AuthProvider>
+  );
 }
-
