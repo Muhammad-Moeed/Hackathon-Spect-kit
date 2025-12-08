@@ -1,14 +1,5 @@
 {
-  "builds": [
-    {
-      "src": "chatbot/backend/main.py",
-      "use": "@vercel/python"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "chatbot/backend/main.py"
-    }
-  ]
+  "version": 2,
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist"
 }
