@@ -3,6 +3,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/Hackathon-Spect-kit/__docusaurus/debug',
+    component: ComponentCreator('/Hackathon-Spect-kit/__docusaurus/debug', '48e'),
+    exact: true
+  },
+  {
+    path: '/Hackathon-Spect-kit/__docusaurus/debug/config',
+    component: ComponentCreator('/Hackathon-Spect-kit/__docusaurus/debug/config', '347'),
+    exact: true
+  },
+  {
+    path: '/Hackathon-Spect-kit/__docusaurus/debug/content',
+    component: ComponentCreator('/Hackathon-Spect-kit/__docusaurus/debug/content', '810'),
+    exact: true
+  },
+  {
+    path: '/Hackathon-Spect-kit/__docusaurus/debug/globalData',
+    component: ComponentCreator('/Hackathon-Spect-kit/__docusaurus/debug/globalData', 'a87'),
+    exact: true
+  },
+  {
+    path: '/Hackathon-Spect-kit/__docusaurus/debug/metadata',
+    component: ComponentCreator('/Hackathon-Spect-kit/__docusaurus/debug/metadata', '1f2'),
+    exact: true
+  },
+  {
+    path: '/Hackathon-Spect-kit/__docusaurus/debug/registry',
+    component: ComponentCreator('/Hackathon-Spect-kit/__docusaurus/debug/registry', 'fb7'),
+    exact: true
+  },
+  {
+    path: '/Hackathon-Spect-kit/__docusaurus/debug/routes',
+    component: ComponentCreator('/Hackathon-Spect-kit/__docusaurus/debug/routes', '32f'),
+    exact: true
+  },
+  {
     path: '/Hackathon-Spect-kit/login',
     component: ComponentCreator('/Hackathon-Spect-kit/login', '75b'),
     exact: true

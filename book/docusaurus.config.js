@@ -3,7 +3,7 @@
 
 /** @type {import('@docusaurus/types').Config} */
 import { themes as prismThemes } from 'prism-react-renderer';
-
+const backendUrl = process.env.BACKEND_URL
 const config = {
   title: 'Physical AI & Humanoid Robotics',
   tagline: 'A Comprehensive Guide to Embodied Intelligence and Humanoid Robot Design',
@@ -39,6 +39,9 @@ const config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
+  },
+   customFields: {
+    backendUrl: backendUrl || 'https://chatbot-backend-rr7zo63xk-muhammad-moeed-qadris-projects.vercel.app',
   },
 
   presets: [

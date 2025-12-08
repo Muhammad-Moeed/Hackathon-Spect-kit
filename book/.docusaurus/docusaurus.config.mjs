@@ -59,16 +59,19 @@ export default {
     "path": "i18n",
     "localeConfigs": {}
   },
+  "customFields": {
+    "backendUrl": "https://chatbot-backend-rr7zo63xk-muhammad-moeed-qadris-projects.vercel.app"
+  },
   "presets": [
     [
       "classic",
       {
         "docs": {
-          "sidebarPath": "D:\\moeed projects\\hakctohne2\\Hackathon-Spect-kit\\book\\sidebars.js"
+          "sidebarPath": "D:\\moeed projects\\hackathon3\\Hackathon-Spect-kit\\book\\sidebars.js"
         },
         "blog": false,
         "theme": {
-          "customCss": "D:\\moeed projects\\hakctohne2\\Hackathon-Spect-kit\\book\\src\\css\\custom.css"
+          "customCss": "D:\\moeed projects\\hackathon3\\Hackathon-Spect-kit\\book\\src\\css\\custom.css"
         }
       }
     ]
@@ -375,7 +378,6 @@ export default {
   "staticDirectories": [
     "static"
   ],
-  "customFields": {},
   "plugins": [],
   "themes": [],
   "scripts": [],
